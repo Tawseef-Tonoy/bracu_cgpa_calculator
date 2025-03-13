@@ -1,0 +1,249 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0a192f;
+    color: #64ffda;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #112240;
+    border: 2px solid #64ffda;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(100, 255, 218, 0.5);
+}
+
+.header {
+    text-align: center;
+    background-color: #64ffda;
+    color: #0a192f;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #0a192f;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.instructions {
+    border: 1px solid #64ffda;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.instructions h3 {
+    margin-top: 0;
+    color: #64ffda;
+}
+
+.instructions ol {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.semesters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.semester {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #64ffda;
+    background-color: rgba(100, 255, 218, 0.05);
+}
+
+.semester-title {
+    background-color: #64ffda;
+    color: #0a192f;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #64ffda;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #1d4350;
+}
+
+input {
+    width: 90%;
+    background-color: #0a192f;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    padding: 3px;
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #64ffda;
+    padding-top: 5px;
+}
+
+.summary span {
+    font-weight: bold;
+}
+
+.final-result {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 2px dashed #64ffda;
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.final-result h2 {
+    margin: 0;
+    color: #64ffda;
+}
+
+.final-result div {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #64ffda;
+    color: #0a192f;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #0a192f;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+}
+
+.version {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #8892b0;
+}
+
+.credits {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #8892b0;
+}
+
+.binary-decoration {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.1;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.binary-text {
+    position: absolute;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #64ffda;
+}
+
+.add-row {
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    padding: 2px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.add-row:hover {
+    background-color: rgba(100, 255, 218, 0.2);
+}
+
+.calculate-btn {
+    background-color: #64ffda;
+    color: #0a192f;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    width: 200px;
+}
+
+.calculate-btn:hover {
+    background-color: #4ad3b8;
+}
+
+.paste-container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #112240;
+    border: 2px solid #64ffda;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(100, 255, 218, 0.5);
+}
+
+.paste-container h3 {
+    color: #64ffda;
+    margin-bottom: 10px;
+}
+
+#gradesheet-input {
+    width: 90%;
+    height: 100px;
+    background-color: #0a192f;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+}
+
+#paste-btn {
+    background-color: #64ffda;
+    color: #0a192f;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#paste-btn:hover {
+    background-color: #4ad3b8;
+}
